@@ -8,17 +8,13 @@ var createCounter = function(init) {
        increment:function() {
             return temp+=1;
         },
-        
-          reset:function() {
+     reset:function() {
             return temp=init;
         },
        decrement:function() {
            return temp-=1;
         }
     }
-
-
-
 };
 
 /**

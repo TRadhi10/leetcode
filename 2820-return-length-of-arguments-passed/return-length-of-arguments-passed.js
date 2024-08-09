@@ -3,10 +3,6 @@
  * @return {number}
  */
 var argumentsLength = function(...args) {
-   // int count=0;
-    //for(int i=0;i<args.length;i++){
-     //   count++;
-   // }
     return args.length;
 };
 

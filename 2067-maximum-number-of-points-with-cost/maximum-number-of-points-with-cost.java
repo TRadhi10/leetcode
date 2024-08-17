@@ -1,8 +1,6 @@
 class Solution {
   public long maxPoints(int[][] points) {
     final int n = points[0].length;
-    // dp[j] := the maximum number of points you can have if points[i][j] is the
-    // most recent cell you picked
     long[] dp = new long[n];
 
     for (int[] row : points) {

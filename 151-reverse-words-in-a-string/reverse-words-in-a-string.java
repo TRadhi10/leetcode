@@ -23,8 +23,6 @@ class Solution {
         if (resultIndex > 0 && result[resultIndex - 1] == ' ') {
             resultIndex--;
         }
-        
         return new String(result, 0, resultIndex);
-
     }
 }
